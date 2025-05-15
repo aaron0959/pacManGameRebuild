@@ -1,0 +1,93 @@
+body {
+  background-color: black;
+  color: white;
+}
+
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  width: 560px;
+  height: 560px;
+  border: solid purple;
+}
+
+.grid div {
+  width: 20px;
+  height: 20px;
+
+}
+
+.pellet {
+  background-color: beige;
+  border: 4px solid black;
+  box-sizing: border-box;
+}
+
+.wall {
+  background-color: #0e2ebd;
+
+}
+
+.powerPellet {
+  background-color: #dc1fdc;
+  border: 10px #dc1fdc;
+  box-sizing: border-box;
+}
+
+
+
+.PacMan {
+  background-color: yellow;
+  border-radius: 10px;
+}
+
+.ghostLair{
+  background-color: #1fff00;
+
+}
+
+.blinky{
+  background-color: red;
+  border: 0px;
+
+}
+
+.inky{
+  background-color: cyan;
+  border: 0px;
+
+}
+
+.pinky{
+  background-color: pink;
+  border: 0px;
+
+}
+
+.clyde{
+  background-color: orange;
+  border: 0px;
+
+}
+
+.scaredInky{
+  background-color: purple;
+  border: 0px;
+
+}
+.scaredPinky{
+  background-color: purple;
+  border: 0px;
+
+}.scaredBlinky{
+  background-color: purple;
+  border: 0px;
+
+}.scaredClyde{
+  background-color: purple;
+  border: 0px;
+
+}.fruit{
+  background-color: lime;
+  border: 0px;
+}
